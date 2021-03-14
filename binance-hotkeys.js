@@ -11,14 +11,14 @@ globalThis.addEventListener("keypress", event => {
          * CTRL+SHIFT+B
          * Create buy order.
          */
-        document.querySelector("button.css-18hdaey").click();
+        document.querySelector("button#orderformBuyBtn").click();
         break;
       case "KeyC":
         /**
          * CTRL+SHIFT+C
          * Cancel all open orders.
          */
-        document.querySelectorAll("div.css-1oh3ukp").forEach(button => button.click());
+        document.querySelectorAll("div.css-1loxal8").forEach(button => button.click());
         break;
       case "KeyH":
         /**
@@ -45,7 +45,7 @@ globalThis.addEventListener("keypress", event => {
          * CTRL+SHIFT+S
          * Create sell order.
          */
-        document.querySelector("button.css-1epoit0").click();
+        document.querySelector("button#orderformSellBtn").click();
         break;
       case "Digit6":
         /**
@@ -135,4 +135,3 @@ globalThis.addEventListener("keypress", event => {
     }
   }
 });
-
