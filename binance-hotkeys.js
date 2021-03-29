@@ -3,6 +3,16 @@
  */
 
 globalThis.addEventListener("keypress", event => {
+  if (event.altKey) {
+    switch (event.code) {
+      case "KeyL":
+        document.querySelector("span[data-testid=LimitType]").click();
+        break;
+      case "KeyM":
+        document.querySelector("span[data-testid=MarketType]").click();
+        break;
+    }
+  }
   if (event.ctrlKey && event.shiftKey) {
     let sliders;
     switch (event.code) {
