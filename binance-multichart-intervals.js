@@ -20,7 +20,7 @@ if (location.pathname.endsWith("multipleChart")) {
       "div.css-e2pgpg div.css-14effk1");
 
     intervalButtons.forEach(button => {
-      button.addEventListener("mousedown", event => {
+      button.addEventListener("mouseup", event => {
         if (altPressed) {
           intervalButtons.forEach(_button => {
             if (_button.id === event.target.id) {
