@@ -1,6 +1,6 @@
 Browser keyboard shortcuts for Binance's trading view.
 
-# Hotkeys
+## Trading hotkeys (<a href="https://github.com/buffermet/binance-hotkeys/blob/main/binance-hotkeys.js">binance-hotkeys.js</a>)
 
 `ALT` + `L` &emsp; Switch to limit order form.
 
@@ -25,3 +25,7 @@ Browser keyboard shortcuts for Binance's trading view.
 `CTRL` + `SHIFT` + `9` &emsp; Select 75% of total possible buy and sell amount.
 
 `CTRL` + `SHIFT` + `0` &emsp; Select 100% of total possible buy and sell amount.
+
+## Kline interval switching (<a href="https://github.com/buffermet/binance-hotkeys/blob/main/binance-multichart-intervals.js">binance-multichart-intervals.js</a>)
+
+Hold `ALT` and click on an interval to switch kline intervals of all charts.
