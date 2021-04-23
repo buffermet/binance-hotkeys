@@ -28,4 +28,4 @@ Browser keyboard shortcuts for Binance's trading view.
 
 ## Kline interval switching (<a href="https://github.com/buffermet/binance-hotkeys/blob/main/binance-multichart-intervals.js">binance-multichart-intervals.js</a>)
 
-Hold `ALT` and click on an interval to switch kline intervals of all charts.
+Hold `ALT` and click on an interval to switch kline intervals of all charts in the multichart view.
