@@ -2,8 +2,8 @@
  * Automatically change kline intervals of multiple Binance charts by holding ALT key.
  */
 
-globalThis.addEventListener("load", () => {
-  if (location.pathname.endsWith("multipleChart")) {
+if (location.pathname.endsWith("multipleChart")) {
+  globalThis.addEventListener("load", () => {
     let altPressed = false;
 
     globalThis.addEventListener("keydown", event => {
@@ -30,5 +30,5 @@ globalThis.addEventListener("load", () => {
         }
       });
     });
-  }
-});
+  });
+}
