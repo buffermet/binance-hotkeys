@@ -16,7 +16,6 @@ if (location.pathname.endsWith("multipleChart")) {
 
     const intervalButtons = document.querySelectorAll(
       "div.css-e2pgpg div.css-137m6a4," + 
-      "div.css-e2pgpg div.css-14effk1," + 
       "div.css-e2pgpg div.css-14effk1");
 
     intervalButtons.forEach(button => {
